@@ -1,1 +1,9 @@
 docker-compose run --rm web rails new . --force --database=mysql --skip-bundle
+
+```config/database.yml
+- password:
++ password: password
+- host: localhost
++ host: db
+
+```
